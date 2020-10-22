@@ -1,7 +1,7 @@
 Testing with Ruby, Cucumber and Appium
 
-IMPORTANT! 
-The project use APK file, which has to be placed into 'features/support' folder.
+IMPORTANT!
+The project uses APK file, which has to be placed into 'features/support' folder.
 Due to its big size, it is not uploaded to Git, and has to be added separately.
 Name of the APK should be exact 'app-world-beta (1).apk'
 
@@ -20,4 +20,4 @@ Running the test execution:
 2. Run Appium server
 3. Execute command "cucumber" from the project directory
 
-Result - test will run on the virtual Android device.
+Result - test are passed on the virtual Android device.

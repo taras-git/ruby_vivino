@@ -1,7 +1,9 @@
+# frozen_string_literal: false
+
 Before do
-    $driver.start_driver
+  start_driver
 end
 
 After do
-    $driver.driver_quit
+  driver_quit
 end
